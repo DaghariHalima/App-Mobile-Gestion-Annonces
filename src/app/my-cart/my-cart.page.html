@@ -1,0 +1,121 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-buttons class="backbtn" routerLink="/home" routerDirection="back">
+        <img src="../../assets/back-dark.svg" />
+      </ion-buttons>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button class="notification">
+        <ion-icon name="notifications-outline" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <h1 class="title">Mes annonces</h1>
+
+  <div class="cart-items">
+    <ion-card mode="ios">
+      <ion-card-content>
+        <div class="item-img">
+          <img src="../../assets/cart/per1.jpg" />
+        </div>
+
+        <div class="item-info">
+          <p>Samar Derbelly</p>
+          <p>23 ans </p>
+          <p>La Manouba</p>
+
+          <div class="qty-selector">
+            <ion-button shape="round" fill="outline">Modifier</ion-button>
+            <ion-button shape="round" fill="outline">Supprimer</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card mode="ios">
+      <ion-card-content>
+        <div class="item-img">
+          <img src="../../assets/cart/obj1.jpg" />
+        </div>
+
+        <div class="item-info">
+          <p>Chien Hesky</p>
+          <p>1 an</p>
+          <p>Bardo</p>
+
+          <div class="qty-selector">
+            <ion-button shape="round" fill="outline">Modifier</ion-button>
+            <ion-button shape="round" fill="outline">Supprimer</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card mode="ios">
+      <ion-card-content>
+        <div class="item-img">
+          <img src="../../assets/cart/per3.jpg" />
+        </div>
+
+        <div class="item-info">
+          <p>Mohamed Salem</p>
+          <p>18 ans</p>
+          <p>La marsa</p>
+
+          <div class="qty-selector">
+            <ion-button shape="round" fill="outline">Modifier</ion-button>
+            <ion-button shape="round" fill="outline">Supprimer</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card mode="ios">
+      <ion-card-content>
+        <div class="item-img">
+          <img src="../../assets/cart/obj3.jpg" />
+        </div>
+
+        <div class="item-info">
+          <p>Permis</p>
+          <p>perdu depuis 2 jours</p>
+          <p>L'Aouina</p>
+
+          <div class="qty-selector">
+            <ion-button shape="round" fill="outline">Modifier</ion-button>
+            <ion-button shape="round" fill="outline">Supprimer</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card mode="ios">
+      <ion-card-content>
+        <div class="item-img">
+          <img src="../../assets/cart/per2.jpg" />
+        </div>
+
+        <div class="item-info">
+          <p>Mohsen Ben Ali</p>
+          <p>53 ans</p>
+          <p>La Marsa</p>
+
+          <div class="qty-selector">
+            <ion-button shape="round" fill="outline">Modifier</ion-button>
+            <ion-button shape="round" fill="outline">Supprimer</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+<ion-footer translucent="true" class="ion-no-border" mode="md">
+  <ion-toolbar color="translucent">
+    <ion-button expand="block" class="main-button" routerLink="/checkout" routerDirection="forward">Continue</ion-button>
+  </ion-toolbar>
+</ion-footer>
